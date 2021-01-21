@@ -121,7 +121,7 @@
             this.panel1.Controls.Add(this.button_update_devfile_info);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(773, 537);
+            this.panel1.Size = new System.Drawing.Size(773, 496);
             this.panel1.TabIndex = 60;
             // 
             // groupBox5
@@ -140,9 +140,9 @@
             this.groupBox5.Controls.Add(this.label31);
             this.groupBox5.Controls.Add(this.textBox_projectFileName);
             this.groupBox5.Controls.Add(this.textBox_deviceedsname);
-            this.groupBox5.Location = new System.Drawing.Point(12, 332);
+            this.groupBox5.Location = new System.Drawing.Point(12, 306);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(377, 182);
+            this.groupBox5.Size = new System.Drawing.Size(403, 168);
             this.groupBox5.TabIndex = 63;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Project Info";
@@ -150,119 +150,119 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 153);
+            this.label4.Location = new System.Drawing.Point(10, 141);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 13);
+            this.label4.Size = new System.Drawing.Size(113, 12);
             this.label4.TabIndex = 70;
             this.label4.Text = "Documentation file";
             // 
             // textBox_mdFileName
             // 
-            this.textBox_mdFileName.Location = new System.Drawing.Point(139, 150);
+            this.textBox_mdFileName.Location = new System.Drawing.Point(148, 138);
             this.textBox_mdFileName.Name = "textBox_mdFileName";
             this.textBox_mdFileName.ReadOnly = true;
-            this.textBox_mdFileName.Size = new System.Drawing.Size(226, 20);
+            this.textBox_mdFileName.Size = new System.Drawing.Size(226, 21);
             this.textBox_mdFileName.TabIndex = 69;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 49);
+            this.label2.Location = new System.Drawing.Point(8, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 13);
+            this.label2.Size = new System.Drawing.Size(137, 12);
             this.label2.TabIndex = 68;
-            this.label2.Text = "XDD v1.1 file - stripped";
+            this.label2.Text = "XDD v1.1 file-stripped";
             // 
             // textBox_xddfilenameStripped
             // 
-            this.textBox_xddfilenameStripped.Location = new System.Drawing.Point(139, 46);
+            this.textBox_xddfilenameStripped.Location = new System.Drawing.Point(148, 42);
             this.textBox_xddfilenameStripped.Name = "textBox_xddfilenameStripped";
             this.textBox_xddfilenameStripped.ReadOnly = true;
-            this.textBox_xddfilenameStripped.Size = new System.Drawing.Size(226, 20);
+            this.textBox_xddfilenameStripped.Size = new System.Drawing.Size(226, 21);
             this.textBox_xddfilenameStripped.TabIndex = 67;
             // 
             // textBox_canopennodeFileVersion
             // 
-            this.textBox_canopennodeFileVersion.Location = new System.Drawing.Point(330, 124);
+            this.textBox_canopennodeFileVersion.Location = new System.Drawing.Point(339, 114);
             this.textBox_canopennodeFileVersion.Name = "textBox_canopennodeFileVersion";
             this.textBox_canopennodeFileVersion.ReadOnly = true;
-            this.textBox_canopennodeFileVersion.Size = new System.Drawing.Size(35, 20);
+            this.textBox_canopennodeFileVersion.Size = new System.Drawing.Size(35, 21);
             this.textBox_canopennodeFileVersion.TabIndex = 66;
             // 
             // textBox_projectFileVersion
             // 
-            this.textBox_projectFileVersion.Location = new System.Drawing.Point(330, 20);
+            this.textBox_projectFileVersion.Location = new System.Drawing.Point(339, 18);
             this.textBox_projectFileVersion.Name = "textBox_projectFileVersion";
             this.textBox_projectFileVersion.ReadOnly = true;
-            this.textBox_projectFileVersion.Size = new System.Drawing.Size(35, 20);
+            this.textBox_projectFileVersion.Size = new System.Drawing.Size(35, 21);
             this.textBox_projectFileVersion.TabIndex = 65;
             // 
             // textBox_devicedcfname
             // 
-            this.textBox_devicedcfname.Location = new System.Drawing.Point(139, 98);
+            this.textBox_devicedcfname.Location = new System.Drawing.Point(148, 90);
             this.textBox_devicedcfname.Name = "textBox_devicedcfname";
             this.textBox_devicedcfname.ReadOnly = true;
-            this.textBox_devicedcfname.Size = new System.Drawing.Size(226, 20);
+            this.textBox_devicedcfname.Size = new System.Drawing.Size(226, 21);
             this.textBox_devicedcfname.TabIndex = 8;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(10, 127);
+            this.label14.Location = new System.Drawing.Point(10, 117);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(119, 13);
+            this.label14.Size = new System.Drawing.Size(137, 12);
             this.label14.TabIndex = 21;
             this.label14.Text = "CANopenNode file (ver)";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(10, 101);
+            this.label15.Location = new System.Drawing.Point(10, 93);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(44, 13);
+            this.label15.Size = new System.Drawing.Size(53, 12);
             this.label15.TabIndex = 20;
             this.label15.Text = "DCF file";
             // 
             // textBox_canopennodeFileName
             // 
-            this.textBox_canopennodeFileName.Location = new System.Drawing.Point(139, 124);
+            this.textBox_canopennodeFileName.Location = new System.Drawing.Point(148, 114);
             this.textBox_canopennodeFileName.Name = "textBox_canopennodeFileName";
             this.textBox_canopennodeFileName.ReadOnly = true;
-            this.textBox_canopennodeFileName.Size = new System.Drawing.Size(185, 20);
+            this.textBox_canopennodeFileName.Size = new System.Drawing.Size(185, 21);
             this.textBox_canopennodeFileName.TabIndex = 9;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(10, 75);
+            this.label16.Location = new System.Drawing.Point(10, 69);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 13);
+            this.label16.Size = new System.Drawing.Size(53, 12);
             this.label16.TabIndex = 19;
             this.label16.Text = "EDS file";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(10, 23);
+            this.label31.Location = new System.Drawing.Point(10, 21);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(99, 13);
+            this.label31.Size = new System.Drawing.Size(137, 12);
             this.label31.TabIndex = 18;
             this.label31.Text = "Project file (version)";
             // 
             // textBox_projectFileName
             // 
-            this.textBox_projectFileName.Location = new System.Drawing.Point(139, 20);
+            this.textBox_projectFileName.Location = new System.Drawing.Point(148, 18);
             this.textBox_projectFileName.Name = "textBox_projectFileName";
             this.textBox_projectFileName.ReadOnly = true;
-            this.textBox_projectFileName.Size = new System.Drawing.Size(185, 20);
+            this.textBox_projectFileName.Size = new System.Drawing.Size(185, 21);
             this.textBox_projectFileName.TabIndex = 6;
             // 
             // textBox_deviceedsname
             // 
-            this.textBox_deviceedsname.Location = new System.Drawing.Point(139, 72);
+            this.textBox_deviceedsname.Location = new System.Drawing.Point(148, 66);
             this.textBox_deviceedsname.Name = "textBox_deviceedsname";
             this.textBox_deviceedsname.ReadOnly = true;
-            this.textBox_deviceedsname.Size = new System.Drawing.Size(226, 20);
+            this.textBox_deviceedsname.Size = new System.Drawing.Size(226, 21);
             this.textBox_deviceedsname.TabIndex = 7;
             // 
             // groupBox6
@@ -281,9 +281,9 @@
             this.groupBox6.Controls.Add(this.textBox_nodename);
             this.groupBox6.Controls.Add(this.label32);
             this.groupBox6.Controls.Add(this.textBox_concretenodeid);
-            this.groupBox6.Location = new System.Drawing.Point(395, 210);
+            this.groupBox6.Location = new System.Drawing.Point(421, 194);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(339, 199);
+            this.groupBox6.Size = new System.Drawing.Size(339, 184);
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Device commissioning";
@@ -291,26 +291,26 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 149);
+            this.label3.Location = new System.Drawing.Point(7, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 13);
+            this.label3.Size = new System.Drawing.Size(95, 12);
             this.label3.TabIndex = 63;
             this.label3.Text = "CANopen Manager";
             // 
             // textBox_lssserial
             // 
             this.textBox_lssserial.BackColor = System.Drawing.Color.PeachPuff;
-            this.textBox_lssserial.Location = new System.Drawing.Point(111, 171);
+            this.textBox_lssserial.Location = new System.Drawing.Point(111, 158);
             this.textBox_lssserial.Name = "textBox_lssserial";
-            this.textBox_lssserial.Size = new System.Drawing.Size(218, 20);
+            this.textBox_lssserial.Size = new System.Drawing.Size(218, 21);
             this.textBox_lssserial.TabIndex = 7;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(7, 174);
+            this.label9.Location = new System.Drawing.Point(7, 161);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(71, 13);
+            this.label9.Size = new System.Drawing.Size(83, 12);
             this.label9.TabIndex = 6;
             this.label9.Text = "LSS Serial no";
             // 
@@ -318,7 +318,7 @@
             // 
             this.checkBox_canopenmanager.AutoSize = true;
             this.checkBox_canopenmanager.BackColor = System.Drawing.Color.PeachPuff;
-            this.checkBox_canopenmanager.Location = new System.Drawing.Point(111, 148);
+            this.checkBox_canopenmanager.Location = new System.Drawing.Point(111, 137);
             this.checkBox_canopenmanager.Name = "checkBox_canopenmanager";
             this.checkBox_canopenmanager.Padding = new System.Windows.Forms.Padding(0, 0, 202, 0);
             this.checkBox_canopenmanager.Size = new System.Drawing.Size(217, 14);
@@ -328,86 +328,86 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, 125);
+            this.label8.Location = new System.Drawing.Point(7, 115);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 13);
+            this.label8.Size = new System.Drawing.Size(53, 12);
             this.label8.TabIndex = 62;
             this.label8.Text = "Net name";
             // 
             // textBox_netname
             // 
             this.textBox_netname.BackColor = System.Drawing.Color.PeachPuff;
-            this.textBox_netname.Location = new System.Drawing.Point(111, 122);
+            this.textBox_netname.Location = new System.Drawing.Point(111, 113);
             this.textBox_netname.Name = "textBox_netname";
-            this.textBox_netname.Size = new System.Drawing.Size(218, 20);
+            this.textBox_netname.Size = new System.Drawing.Size(218, 21);
             this.textBox_netname.TabIndex = 4;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(7, 99);
+            this.label7.Location = new System.Drawing.Point(7, 91);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 13);
+            this.label7.Size = new System.Drawing.Size(65, 12);
             this.label7.TabIndex = 60;
             this.label7.Text = "Net number";
             // 
             // textBox_netnum
             // 
             this.textBox_netnum.BackColor = System.Drawing.Color.PeachPuff;
-            this.textBox_netnum.Location = new System.Drawing.Point(111, 96);
+            this.textBox_netnum.Location = new System.Drawing.Point(111, 89);
             this.textBox_netnum.Name = "textBox_netnum";
-            this.textBox_netnum.Size = new System.Drawing.Size(218, 20);
+            this.textBox_netnum.Size = new System.Drawing.Size(218, 21);
             this.textBox_netnum.TabIndex = 3;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 74);
+            this.label6.Location = new System.Drawing.Point(7, 68);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 13);
+            this.label6.Size = new System.Drawing.Size(53, 12);
             this.label6.TabIndex = 58;
             this.label6.Text = "Baudrate";
             // 
             // textBox_baudrate
             // 
             this.textBox_baudrate.BackColor = System.Drawing.Color.PeachPuff;
-            this.textBox_baudrate.Location = new System.Drawing.Point(111, 71);
+            this.textBox_baudrate.Location = new System.Drawing.Point(111, 66);
             this.textBox_baudrate.Name = "textBox_baudrate";
-            this.textBox_baudrate.Size = new System.Drawing.Size(218, 20);
+            this.textBox_baudrate.Size = new System.Drawing.Size(218, 21);
             this.textBox_baudrate.TabIndex = 2;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 48);
+            this.label5.Location = new System.Drawing.Point(7, 44);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 13);
+            this.label5.Size = new System.Drawing.Size(59, 12);
             this.label5.TabIndex = 56;
             this.label5.Text = "Node name";
             // 
             // textBox_nodename
             // 
             this.textBox_nodename.BackColor = System.Drawing.Color.PeachPuff;
-            this.textBox_nodename.Location = new System.Drawing.Point(111, 45);
+            this.textBox_nodename.Location = new System.Drawing.Point(111, 42);
             this.textBox_nodename.Name = "textBox_nodename";
-            this.textBox_nodename.Size = new System.Drawing.Size(218, 20);
+            this.textBox_nodename.Size = new System.Drawing.Size(218, 21);
             this.textBox_nodename.TabIndex = 1;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(7, 22);
+            this.label32.Location = new System.Drawing.Point(7, 20);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(91, 13);
+            this.label32.Size = new System.Drawing.Size(101, 12);
             this.label32.TabIndex = 53;
             this.label32.Text = "Concrete node ID";
             // 
             // textBox_concretenodeid
             // 
             this.textBox_concretenodeid.BackColor = System.Drawing.Color.PeachPuff;
-            this.textBox_concretenodeid.Location = new System.Drawing.Point(111, 19);
+            this.textBox_concretenodeid.Location = new System.Drawing.Point(111, 18);
             this.textBox_concretenodeid.Name = "textBox_concretenodeid";
-            this.textBox_concretenodeid.Size = new System.Drawing.Size(218, 20);
+            this.textBox_concretenodeid.Size = new System.Drawing.Size(218, 21);
             this.textBox_concretenodeid.TabIndex = 0;
             // 
             // groupBox4
@@ -420,74 +420,74 @@
             this.groupBox4.Controls.Add(this.label28);
             this.groupBox4.Controls.Add(this.label27);
             this.groupBox4.Controls.Add(this.label26);
-            this.groupBox4.Location = new System.Drawing.Point(12, 14);
+            this.groupBox4.Location = new System.Drawing.Point(12, 13);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(377, 126);
+            this.groupBox4.Size = new System.Drawing.Size(403, 116);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Device Info";
             // 
             // textBox_productnumber
             // 
-            this.textBox_productnumber.Location = new System.Drawing.Point(139, 46);
+            this.textBox_productnumber.Location = new System.Drawing.Point(148, 42);
             this.textBox_productnumber.Name = "textBox_productnumber";
-            this.textBox_productnumber.Size = new System.Drawing.Size(226, 20);
+            this.textBox_productnumber.Size = new System.Drawing.Size(226, 21);
             this.textBox_productnumber.TabIndex = 1;
             // 
             // textBox_productname
             // 
-            this.textBox_productname.Location = new System.Drawing.Point(139, 20);
+            this.textBox_productname.Location = new System.Drawing.Point(148, 18);
             this.textBox_productname.Name = "textBox_productname";
-            this.textBox_productname.Size = new System.Drawing.Size(226, 20);
+            this.textBox_productname.Size = new System.Drawing.Size(226, 21);
             this.textBox_productname.TabIndex = 0;
             // 
             // textBox_vendornumber
             // 
-            this.textBox_vendornumber.Location = new System.Drawing.Point(139, 98);
+            this.textBox_vendornumber.Location = new System.Drawing.Point(148, 90);
             this.textBox_vendornumber.Name = "textBox_vendornumber";
-            this.textBox_vendornumber.Size = new System.Drawing.Size(226, 20);
+            this.textBox_vendornumber.Size = new System.Drawing.Size(226, 21);
             this.textBox_vendornumber.TabIndex = 3;
             // 
             // textBox_vendorname
             // 
-            this.textBox_vendorname.Location = new System.Drawing.Point(139, 72);
+            this.textBox_vendorname.Location = new System.Drawing.Point(148, 66);
             this.textBox_vendorname.Name = "textBox_vendorname";
-            this.textBox_vendorname.Size = new System.Drawing.Size(226, 20);
+            this.textBox_vendorname.Size = new System.Drawing.Size(226, 21);
             this.textBox_vendorname.TabIndex = 2;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(10, 49);
+            this.label29.Location = new System.Drawing.Point(10, 45);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(58, 13);
+            this.label29.Size = new System.Drawing.Size(65, 12);
             this.label29.TabIndex = 37;
             this.label29.Text = "Product ID";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(10, 23);
+            this.label28.Location = new System.Drawing.Point(10, 21);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(73, 13);
+            this.label28.Size = new System.Drawing.Size(77, 12);
             this.label28.TabIndex = 36;
             this.label28.Text = "Product name";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(10, 101);
+            this.label27.Location = new System.Drawing.Point(10, 93);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(55, 13);
+            this.label27.Size = new System.Drawing.Size(59, 12);
             this.label27.TabIndex = 35;
             this.label27.Text = "Vendor ID";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(10, 75);
+            this.label26.Location = new System.Drawing.Point(10, 69);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(70, 13);
+            this.label26.Size = new System.Drawing.Size(71, 12);
             this.label26.TabIndex = 34;
             this.label26.Text = "Vendor name";
             // 
@@ -502,9 +502,9 @@
             this.groupBox1.Controls.Add(this.heckBox_baud_1000);
             this.groupBox1.Controls.Add(this.heckBox_baud_500);
             this.groupBox1.Controls.Add(this.heckBox_baud_800);
-            this.groupBox1.Location = new System.Drawing.Point(395, 14);
+            this.groupBox1.Location = new System.Drawing.Point(421, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(120, 192);
+            this.groupBox1.Size = new System.Drawing.Size(120, 177);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Baudrates";
@@ -512,9 +512,9 @@
             // checkBox_baud_auto
             // 
             this.checkBox_baud_auto.AutoSize = true;
-            this.checkBox_baud_auto.Location = new System.Drawing.Point(10, 163);
+            this.checkBox_baud_auto.Location = new System.Drawing.Point(10, 150);
             this.checkBox_baud_auto.Name = "checkBox_baud_auto";
-            this.checkBox_baud_auto.Size = new System.Drawing.Size(47, 17);
+            this.checkBox_baud_auto.Size = new System.Drawing.Size(48, 16);
             this.checkBox_baud_auto.TabIndex = 8;
             this.checkBox_baud_auto.Text = "auto";
             this.checkBox_baud_auto.UseVisualStyleBackColor = true;
@@ -522,9 +522,9 @@
             // heckBox_baud_125
             // 
             this.heckBox_baud_125.AutoSize = true;
-            this.heckBox_baud_125.Location = new System.Drawing.Point(10, 72);
+            this.heckBox_baud_125.Location = new System.Drawing.Point(10, 66);
             this.heckBox_baud_125.Name = "heckBox_baud_125";
-            this.heckBox_baud_125.Size = new System.Drawing.Size(70, 17);
+            this.heckBox_baud_125.Size = new System.Drawing.Size(72, 16);
             this.heckBox_baud_125.TabIndex = 3;
             this.heckBox_baud_125.Text = "125 kbps";
             this.heckBox_baud_125.UseVisualStyleBackColor = true;
@@ -532,9 +532,9 @@
             // checkBox_baud_10
             // 
             this.checkBox_baud_10.AutoSize = true;
-            this.checkBox_baud_10.Location = new System.Drawing.Point(10, 20);
+            this.checkBox_baud_10.Location = new System.Drawing.Point(10, 18);
             this.checkBox_baud_10.Name = "checkBox_baud_10";
-            this.checkBox_baud_10.Size = new System.Drawing.Size(64, 17);
+            this.checkBox_baud_10.Size = new System.Drawing.Size(66, 16);
             this.checkBox_baud_10.TabIndex = 0;
             this.checkBox_baud_10.Text = "10 kbps";
             this.checkBox_baud_10.UseVisualStyleBackColor = true;
@@ -542,9 +542,9 @@
             // heckBox_baud_20
             // 
             this.heckBox_baud_20.AutoSize = true;
-            this.heckBox_baud_20.Location = new System.Drawing.Point(10, 37);
+            this.heckBox_baud_20.Location = new System.Drawing.Point(10, 34);
             this.heckBox_baud_20.Name = "heckBox_baud_20";
-            this.heckBox_baud_20.Size = new System.Drawing.Size(64, 17);
+            this.heckBox_baud_20.Size = new System.Drawing.Size(66, 16);
             this.heckBox_baud_20.TabIndex = 1;
             this.heckBox_baud_20.Text = "20 kbps";
             this.heckBox_baud_20.UseVisualStyleBackColor = true;
@@ -552,9 +552,9 @@
             // heckBox_baud_50
             // 
             this.heckBox_baud_50.AutoSize = true;
-            this.heckBox_baud_50.Location = new System.Drawing.Point(10, 54);
+            this.heckBox_baud_50.Location = new System.Drawing.Point(10, 50);
             this.heckBox_baud_50.Name = "heckBox_baud_50";
-            this.heckBox_baud_50.Size = new System.Drawing.Size(64, 17);
+            this.heckBox_baud_50.Size = new System.Drawing.Size(66, 16);
             this.heckBox_baud_50.TabIndex = 2;
             this.heckBox_baud_50.Text = "50 kbps";
             this.heckBox_baud_50.UseVisualStyleBackColor = true;
@@ -562,9 +562,9 @@
             // heckBox_baud_250
             // 
             this.heckBox_baud_250.AutoSize = true;
-            this.heckBox_baud_250.Location = new System.Drawing.Point(10, 90);
+            this.heckBox_baud_250.Location = new System.Drawing.Point(10, 83);
             this.heckBox_baud_250.Name = "heckBox_baud_250";
-            this.heckBox_baud_250.Size = new System.Drawing.Size(70, 17);
+            this.heckBox_baud_250.Size = new System.Drawing.Size(72, 16);
             this.heckBox_baud_250.TabIndex = 4;
             this.heckBox_baud_250.Text = "250 kbps";
             this.heckBox_baud_250.UseVisualStyleBackColor = true;
@@ -572,9 +572,9 @@
             // heckBox_baud_1000
             // 
             this.heckBox_baud_1000.AutoSize = true;
-            this.heckBox_baud_1000.Location = new System.Drawing.Point(10, 145);
+            this.heckBox_baud_1000.Location = new System.Drawing.Point(10, 134);
             this.heckBox_baud_1000.Name = "heckBox_baud_1000";
-            this.heckBox_baud_1000.Size = new System.Drawing.Size(76, 17);
+            this.heckBox_baud_1000.Size = new System.Drawing.Size(78, 16);
             this.heckBox_baud_1000.TabIndex = 7;
             this.heckBox_baud_1000.Text = "1000 kbps";
             this.heckBox_baud_1000.UseVisualStyleBackColor = true;
@@ -582,9 +582,9 @@
             // heckBox_baud_500
             // 
             this.heckBox_baud_500.AutoSize = true;
-            this.heckBox_baud_500.Location = new System.Drawing.Point(10, 109);
+            this.heckBox_baud_500.Location = new System.Drawing.Point(10, 101);
             this.heckBox_baud_500.Name = "heckBox_baud_500";
-            this.heckBox_baud_500.Size = new System.Drawing.Size(70, 17);
+            this.heckBox_baud_500.Size = new System.Drawing.Size(72, 16);
             this.heckBox_baud_500.TabIndex = 5;
             this.heckBox_baud_500.Text = "500 kbps";
             this.heckBox_baud_500.UseVisualStyleBackColor = true;
@@ -592,9 +592,9 @@
             // heckBox_baud_800
             // 
             this.heckBox_baud_800.AutoSize = true;
-            this.heckBox_baud_800.Location = new System.Drawing.Point(10, 127);
+            this.heckBox_baud_800.Location = new System.Drawing.Point(10, 117);
             this.heckBox_baud_800.Name = "heckBox_baud_800";
-            this.heckBox_baud_800.Size = new System.Drawing.Size(70, 17);
+            this.heckBox_baud_800.Size = new System.Drawing.Size(72, 16);
             this.heckBox_baud_800.TabIndex = 6;
             this.heckBox_baud_800.Text = "800 kbps";
             this.heckBox_baud_800.UseVisualStyleBackColor = true;
@@ -609,43 +609,43 @@
             this.groupBox2.Controls.Add(this.textBox_rxpdos);
             this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Controls.Add(this.checkBox_lss);
-            this.groupBox2.Location = new System.Drawing.Point(521, 14);
+            this.groupBox2.Location = new System.Drawing.Point(547, 13);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(213, 192);
+            this.groupBox2.Size = new System.Drawing.Size(213, 177);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "General and Master Features";
             // 
             // textBox_granularity
             // 
-            this.textBox_granularity.Location = new System.Drawing.Point(102, 20);
+            this.textBox_granularity.Location = new System.Drawing.Point(102, 18);
             this.textBox_granularity.Name = "textBox_granularity";
-            this.textBox_granularity.Size = new System.Drawing.Size(101, 20);
+            this.textBox_granularity.Size = new System.Drawing.Size(101, 21);
             this.textBox_granularity.TabIndex = 41;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 23);
+            this.label1.Location = new System.Drawing.Point(10, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(71, 12);
             this.label1.TabIndex = 40;
             this.label1.Text = "Granularity";
             // 
             // textBox_txpdos
             // 
-            this.textBox_txpdos.Location = new System.Drawing.Point(102, 72);
+            this.textBox_txpdos.Location = new System.Drawing.Point(102, 66);
             this.textBox_txpdos.Name = "textBox_txpdos";
             this.textBox_txpdos.ReadOnly = true;
-            this.textBox_txpdos.Size = new System.Drawing.Size(101, 20);
+            this.textBox_txpdos.Size = new System.Drawing.Size(101, 21);
             this.textBox_txpdos.TabIndex = 1;
             // 
             // checkBox_lssMaster
             // 
             this.checkBox_lssMaster.AutoSize = true;
-            this.checkBox_lssMaster.Location = new System.Drawing.Point(10, 127);
+            this.checkBox_lssMaster.Location = new System.Drawing.Point(10, 117);
             this.checkBox_lssMaster.Name = "checkBox_lssMaster";
-            this.checkBox_lssMaster.Size = new System.Drawing.Size(81, 17);
+            this.checkBox_lssMaster.Size = new System.Drawing.Size(84, 16);
             this.checkBox_lssMaster.TabIndex = 10;
             this.checkBox_lssMaster.Text = "LSS Master";
             this.checkBox_lssMaster.UseVisualStyleBackColor = true;
@@ -653,35 +653,35 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(10, 75);
+            this.label30.Location = new System.Drawing.Point(10, 69);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(67, 13);
+            this.label30.Size = new System.Drawing.Size(65, 12);
             this.label30.TabIndex = 39;
             this.label30.Text = "TPDO count";
             // 
             // textBox_rxpdos
             // 
-            this.textBox_rxpdos.Location = new System.Drawing.Point(102, 46);
+            this.textBox_rxpdos.Location = new System.Drawing.Point(102, 42);
             this.textBox_rxpdos.Name = "textBox_rxpdos";
             this.textBox_rxpdos.ReadOnly = true;
-            this.textBox_rxpdos.Size = new System.Drawing.Size(101, 20);
+            this.textBox_rxpdos.Size = new System.Drawing.Size(101, 21);
             this.textBox_rxpdos.TabIndex = 0;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(10, 49);
+            this.label17.Location = new System.Drawing.Point(10, 45);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(68, 13);
+            this.label17.Size = new System.Drawing.Size(65, 12);
             this.label17.TabIndex = 38;
             this.label17.Text = "RPDO count";
             // 
             // checkBox_lss
             // 
             this.checkBox_lss.AutoSize = true;
-            this.checkBox_lss.Location = new System.Drawing.Point(10, 109);
+            this.checkBox_lss.Location = new System.Drawing.Point(10, 101);
             this.checkBox_lss.Name = "checkBox_lss";
-            this.checkBox_lss.Size = new System.Drawing.Size(76, 17);
+            this.checkBox_lss.Size = new System.Drawing.Size(78, 16);
             this.checkBox_lss.TabIndex = 6;
             this.checkBox_lss.Text = "LSS Slave";
             this.checkBox_lss.UseVisualStyleBackColor = true;
@@ -700,115 +700,115 @@
             this.groupBox3.Controls.Add(this.label22);
             this.groupBox3.Controls.Add(this.label20);
             this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Location = new System.Drawing.Point(12, 146);
+            this.groupBox3.Location = new System.Drawing.Point(12, 135);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(377, 180);
+            this.groupBox3.Size = new System.Drawing.Size(403, 166);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "File Info";
             // 
             // textBox_modifiedby
             // 
-            this.textBox_modifiedby.Location = new System.Drawing.Point(139, 150);
+            this.textBox_modifiedby.Location = new System.Drawing.Point(148, 138);
             this.textBox_modifiedby.Name = "textBox_modifiedby";
-            this.textBox_modifiedby.Size = new System.Drawing.Size(226, 20);
+            this.textBox_modifiedby.Size = new System.Drawing.Size(226, 21);
             this.textBox_modifiedby.TabIndex = 7;
             // 
             // textBox_modified_datetime
             // 
-            this.textBox_modified_datetime.Location = new System.Drawing.Point(139, 124);
+            this.textBox_modified_datetime.Location = new System.Drawing.Point(148, 114);
             this.textBox_modified_datetime.Name = "textBox_modified_datetime";
             this.textBox_modified_datetime.ReadOnly = true;
-            this.textBox_modified_datetime.Size = new System.Drawing.Size(226, 20);
+            this.textBox_modified_datetime.Size = new System.Drawing.Size(226, 21);
             this.textBox_modified_datetime.TabIndex = 6;
             // 
             // textBox_createdby
             // 
-            this.textBox_createdby.Location = new System.Drawing.Point(139, 98);
+            this.textBox_createdby.Location = new System.Drawing.Point(148, 90);
             this.textBox_createdby.Name = "textBox_createdby";
-            this.textBox_createdby.Size = new System.Drawing.Size(226, 20);
+            this.textBox_createdby.Size = new System.Drawing.Size(226, 21);
             this.textBox_createdby.TabIndex = 5;
             // 
             // textBox_create_datetime
             // 
-            this.textBox_create_datetime.Location = new System.Drawing.Point(139, 72);
+            this.textBox_create_datetime.Location = new System.Drawing.Point(148, 66);
             this.textBox_create_datetime.Name = "textBox_create_datetime";
-            this.textBox_create_datetime.Size = new System.Drawing.Size(226, 20);
+            this.textBox_create_datetime.Size = new System.Drawing.Size(226, 21);
             this.textBox_create_datetime.TabIndex = 4;
             // 
             // textBox_di_description
             // 
-            this.textBox_di_description.Location = new System.Drawing.Point(139, 46);
+            this.textBox_di_description.Location = new System.Drawing.Point(148, 42);
             this.textBox_di_description.Name = "textBox_di_description";
-            this.textBox_di_description.Size = new System.Drawing.Size(226, 20);
+            this.textBox_di_description.Size = new System.Drawing.Size(226, 21);
             this.textBox_di_description.TabIndex = 3;
             // 
             // textBox_fileversion
             // 
-            this.textBox_fileversion.Location = new System.Drawing.Point(139, 20);
+            this.textBox_fileversion.Location = new System.Drawing.Point(148, 18);
             this.textBox_fileversion.Name = "textBox_fileversion";
-            this.textBox_fileversion.Size = new System.Drawing.Size(226, 20);
+            this.textBox_fileversion.Size = new System.Drawing.Size(226, 21);
             this.textBox_fileversion.TabIndex = 0;
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(10, 153);
+            this.label25.Location = new System.Drawing.Point(10, 141);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(61, 13);
+            this.label25.Size = new System.Drawing.Size(71, 12);
             this.label25.TabIndex = 25;
             this.label25.Text = "Modified by";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(10, 127);
+            this.label24.Location = new System.Drawing.Point(10, 117);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(118, 13);
+            this.label24.Size = new System.Drawing.Size(137, 12);
             this.label24.TabIndex = 24;
             this.label24.Text = "Modification Date/Time";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(10, 101);
+            this.label23.Location = new System.Drawing.Point(10, 93);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(59, 13);
+            this.label23.Size = new System.Drawing.Size(65, 12);
             this.label23.TabIndex = 23;
             this.label23.Text = "Created By";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(10, 75);
+            this.label22.Location = new System.Drawing.Point(10, 69);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(100, 13);
+            this.label22.Size = new System.Drawing.Size(113, 12);
             this.label22.TabIndex = 22;
             this.label22.Text = "Creation Date/Time";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(10, 49);
+            this.label20.Location = new System.Drawing.Point(10, 45);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 13);
+            this.label20.Size = new System.Drawing.Size(71, 12);
             this.label20.TabIndex = 20;
             this.label20.Text = "Description";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(10, 23);
+            this.label18.Location = new System.Drawing.Point(10, 21);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(60, 13);
+            this.label18.Size = new System.Drawing.Size(77, 12);
             this.label18.TabIndex = 18;
             this.label18.Text = "File version";
             // 
             // button_update_devfile_info
             // 
-            this.button_update_devfile_info.Location = new System.Drawing.Point(405, 441);
+            this.button_update_devfile_info.Location = new System.Drawing.Point(431, 407);
             this.button_update_devfile_info.Name = "button_update_devfile_info";
-            this.button_update_devfile_info.Size = new System.Drawing.Size(318, 35);
+            this.button_update_devfile_info.Size = new System.Drawing.Size(318, 32);
             this.button_update_devfile_info.TabIndex = 10;
             this.button_update_devfile_info.Text = "Update";
             this.button_update_devfile_info.UseVisualStyleBackColor = true;
@@ -816,11 +816,11 @@
             // 
             // DeviceInfoView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Name = "DeviceInfoView";
-            this.Size = new System.Drawing.Size(773, 537);
+            this.Size = new System.Drawing.Size(773, 496);
             this.panel1.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();

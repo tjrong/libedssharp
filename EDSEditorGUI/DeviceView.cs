@@ -95,5 +95,10 @@ namespace ODEditor
         }
 
         #endregion
+
+        private void deviceInfoView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
